@@ -2,7 +2,7 @@ body {
     background-color: rgb(62, 62, 62);
     font-family: monospace, sans-serif;
     text-align: center;
-    color: white;
+    color: whitesmoke;
 }
 
 .navbar {
@@ -21,12 +21,12 @@ body {
 #mail-logo {
     height: 30px;
     width: 30px;
-    color: white;
+    color: whitesmoke;
 }
 
 .email {
     font-size: 16px;
-    color: white;
+    color: whitesmoke;
 }
 
 .main-nav {
@@ -36,14 +36,14 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .main-nav a:hover {
-    color: #000;
+    color: whitesmoke;
 }
 
 .tagline {
@@ -59,6 +59,7 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    border: 10px whitesmoke solid;
 }
 
 .myself,
@@ -97,7 +98,7 @@ body {
     align-items: center;
     margin: 15px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: whitesmoke;
     border-radius: 10px;
 }
 
