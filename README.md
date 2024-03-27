@@ -1,13 +1,12 @@
-# portfolio-html-css-js
+# My Portfolio - Yash Gupta
+> A basic portfolio website made using HTML and CSS
+> url: https://yashgupta7337.github.io/portfolio-html-css-js/
 
-A basic portfolio website made using HTML and CSS
+## github, mail and linked logos from icon finder
+> https://www.iconfinder.com/
 
-# github, mail and linked logos from icon finder
+## languages logos from the following github repo
+> https://github.com/abranhe/programming-languages-logos
 
-https://www.iconfinder.com/
-
-# languages logos from the following github repo
-
-https://github.com/abranhe/programming-languages-logos
-
-# framework, libraries and databases logos from google images
+## framework, libraries and databases logos from google images
+> https://google.com
