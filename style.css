@@ -1,8 +1,49 @@
 body {
-    background-color: rgb(62, 62, 62);
-    font-family: monospace, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: monospace, 'Roboto';
     text-align: center;
-    color: whitesmoke;
+}
+
+.navbar,
+.email-container,
+.main-nav a,
+.myself,
+.my-info,
+.skills,
+.connect img {
+    transition: all 0.3s ease;
+}
+
+.email-link {
+    color: #E0E0E0;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.email-link:hover {
+    color: #BBBBBB;
+    text-decoration: underline;/
+}
+
+.email-container div:hover,
+.email-container img:hover,
+.main-nav a:hover,
+.connect img:hover {
+    transform: scale(1.1);
+}
+
+.logo img,
+.logo-container {
+    border: 5px solid #E0E0E0;
+}
+
+.logo-container img {
+    transition: transform 0.3s ease;
+}
+
+.logo-container:hover img {
+    transform: scale(1.1);
 }
 
 .navbar {
@@ -21,12 +62,12 @@ body {
 #mail-logo {
     height: 30px;
     width: 30px;
-    color: whitesmoke;
+
 }
 
 .email {
     font-size: 16px;
-    color: whitesmoke;
+    color: E0E0E0;
 }
 
 .main-nav {
@@ -36,14 +77,14 @@ body {
 
 .main-nav a {
     text-decoration: none;
-    color: whitesmoke;
+    color: E0E0E0;
     font-size: 16px;
     font-weight: 500;
     transition: color 0.3s ease;
 }
 
 .main-nav a:hover {
-    color: whitesmoke;
+    color: E0E0E0;
 }
 
 .tagline {
@@ -59,7 +100,7 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: 10px whitesmoke solid;
+    border: 10px E0E0E0 solid;
 }
 
 .myself,
@@ -98,7 +139,7 @@ body {
     align-items: center;
     margin: 15px;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: #E0E0E0;
     border-radius: 10px;
 }
 
@@ -113,6 +154,11 @@ body {
     width: 40px;
     margin: 10px;
     cursor: pointer;
+}
+
+#resume {
+    text-decoration: none;
+    color: #E0E0E0;
 }
 
 #resume:hover {
