@@ -1,6 +1,6 @@
 # portfolio-html-css-js
 
-A basic portfolio website made using HTML, CSS and JavaScript
+A basic portfolio website made using HTML and CSS
 
 # github, mail and linked logos from icon finder
 
