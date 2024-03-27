@@ -1,0 +1,47 @@
+body {
+    background-color: #f0f8ff;
+    font-family: monospace, sans-serif;
+    text-align: center;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+.email-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#mail-logo {
+    height: 30px;
+    width: 30px;
+}
+
+.email {
+    font-size: 16px;
+    color: #666;
+}
+
+.main-nav {
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.main-nav a:hover {
+    color: #000;
+}
+
