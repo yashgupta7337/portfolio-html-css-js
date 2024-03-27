@@ -1,9 +1,13 @@
 let lightMode = false;
 const navbar = document.getElementsByClassName("main-nav");
 const logoContainers = document.getElementsByClassName("logo-container");
+const slider = document.querySelector(".slider");
+const checkBox = document.querySelector('.switch input[type="checkbox"]');
+
 Array.from(navbar).forEach((element) => {
   element.addEventListener("click", toggleTheme);
 });
+
 function toggleTheme(event) {
   event.preventDefault();
   if (lightMode === false) {
@@ -24,7 +28,10 @@ function toggleTheme(event) {
     document.querySelector("#education-logo").src =
       "assets/education-light-mode-logo.png";
     //memoji border color
-    document.querySelector(".logo img").style.border = "10px solid #66ffff";
+    document.querySelector(".logo img").style.border = "10px solid #666666";
+    // switch color and transition
+    slider.style.backgroundColor = "#282828";
+    checkBox.checked = true;
   } else {
     lightMode = false;
     // background and text color
@@ -44,5 +51,7 @@ function toggleTheme(event) {
       "assets/education-dark-mode-logo.png";
     //memoji border color
     document.querySelector(".logo img").style.border = "10px solid #E0E0E0";
+    slider.style.backgroundColor = "#ccc";
+    checkBox.checked = false;
   }
 }
