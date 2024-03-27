@@ -1,5 +1,5 @@
 # My Portfolio - Yash Gupta
-> A basic portfolio website made using HTML and CSS
+> A light-dark mode portfolio website made using HTML, CSS and Javascript
 > url: https://yashgupta7337.github.io/yashify/
 
 ## github, mail and linked logos from icon finder
