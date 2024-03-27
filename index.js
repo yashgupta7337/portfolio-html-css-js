@@ -4,9 +4,11 @@ const logoContainers = document.getElementsByClassName("logo-container");
 const slider = document.querySelector(".slider");
 const checkBox = document.querySelector('.switch input[type="checkbox"]');
 
-Array.from(navbar).forEach((element) => {
-  element.addEventListener("click", toggleTheme);
-});
+slider.addEventListener("click", toggleTheme);
+
+// Array.from(navbar).forEach((element) => {
+//   element.addEventListener("click", toggleTheme);
+// });
 
 function toggleTheme(event) {
   event.preventDefault();
