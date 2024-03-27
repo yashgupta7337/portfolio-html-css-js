@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #121212ed;
     color: #E0E0E0;
     font-family: monospace, 'Roboto';
     text-align: center;
@@ -23,15 +23,17 @@ body {
 
 .email-link:hover {
     color: #BBBBBB;
-    text-decoration: underline;/
+    text-decoration: underline;
 }
 
+.main-nav img:hover,
 .email-container div:hover,
 .email-container img:hover,
 .main-nav a:hover,
 .connect img:hover {
     transform: scale(1.1);
 }
+
 
 .logo img,
 .logo-container {
@@ -51,6 +53,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    padding-bottom: 60px;
 }
 
 .email-container {
@@ -68,6 +71,11 @@ body {
 .email {
     font-size: 16px;
     color: E0E0E0;
+}
+
+.main-nav img {
+    height: 20px;
+    width: 20px;
 }
 
 .main-nav {
@@ -100,7 +108,13 @@ body {
     height: 250px;
     width: 250px;
     border-radius: 50%;
-    border: 10px E0E0E0 solid;
+    border: 10px #E0E0E0 solid;
+}
+
+#mail-logo:hover,
+.education img:hover {
+    transform: scale(1.1);
+    transition: color 0.3s ease;
 }
 
 .myself,
@@ -171,4 +185,12 @@ a {
 
 #skills-text {
     padding-top: 40px;
+}
+
+.connect p {
+    padding-top: 100px;
+}
+
+#my-info-text {
+    padding-bottom: 70px;
 }
